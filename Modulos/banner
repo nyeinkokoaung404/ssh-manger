@@ -11,7 +11,7 @@ chk=$(cat /etc/ssh/sshd_config | grep Banner)
     local="/etc/bannerssh"
     [[ $(grep -wc $local /etc/ssh/sshd_config) = '0' ]] && echo "Banner /etc/bannerssh" >> /etc/ssh/sshd_config
 }
-echo -e "\E[44;1;37m     ㅤ🐉ㅤBANNER MANAGERㅤ🐉ㅤ        \E[0m"
+echo -e "\E[44;1;37m     ㅤ🌺ㅤONLY/:FORYOU&ALL BANNER MANAGERㅤ🌺ㅤ        \E[0m"
 echo ""
 echo -e "\033[1;32m◇───MANUAL BANNER ADDING METHOD───◇"
 echo -e "\033[1;37m◇ Step 1:- Press CTRL+C and sendㅤ👇ㅤ"
