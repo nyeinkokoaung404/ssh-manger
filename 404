@@ -112,7 +112,7 @@ echo -e "          \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32m◇ INSTALLING PA
 echo ""
 echo -e "\033[1;33m◇ SOME PACKAGES ARE EXTREMELY NECESSARY!\033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33mDeveloped by: \033[1;32m④ ⍤⃝🌻④\033[0m"
+echo -e "\033[1;31m \033[1;33mDeveloped by: \033[1;32m🌺 ④ ⍤⃝🌻④ 🌺\033[0m"
 inst_pct () {
 _pacotes=("bc" "apache2" "cron" "screen" "nano" "unzip" "lsof" "netstat" "net-tools" "dos2unix" "nload" "jq" "curl" "figlet" "python3" "python-pip")
 for _prog in ${_pacotes[@]}; do
@@ -128,7 +128,7 @@ echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32m◇ FINISHING
 echo ""
 echo -e "      \033[1;33m◇ COMPLETING FUNCTIONS AND SETTINGS!\033[0m"
 echo ""
-echo -e "\033[1;31m \033[1;33mDeveloped by: \033[1;32m④ ⍤⃝🌻④\033[0m"
+echo -e "\033[1;31m \033[1;33mDeveloped by: \033[1;32m🌺 ④ ⍤⃝🌻④ 🌺\033[0m"
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
 clear
 echo ""
