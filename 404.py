@@ -117,29 +117,24 @@ words, ss = re.split('=no ')
 
 
 try:
-    ips, ssss = ss.split(' -- PROJECT_ID')
+    ips, ssss = ss.split(' --')
     user,ip = ips.split('@')
 
-    print("Here is Current INFO")
+print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
-    print(ip + " <<< Host : Port >>> 6000")
-
-    print("nyeinkokoaung404")
-    duckdns_update(domain, token, ip)
-
+print("Host / IP   :⪧  " + ip)
+print("SSH Port    :⪧  6000")
+print("Username    :⪧  " + user)
+duckdns_update(domain, token, ip)
 except:
       ips, ssss = ss.split(' --')
       user,ip = ips.split('@')
 
 print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
-#print("PROJECT_ID  :⪧  " + ssss)
 print("Host / IP   :⪧  " + ip)
 print("SSH Port    :⪧  6000")
 print("Username    :⪧  " + user)
-#print("Host / IP   :⪧  fourzerofour.duckdns.org")
-#print("SSH Port    :⪧  6000")
-#print("Username    :⪧  nyeinkokoaung404")
 duckdns_update(domain, token, ip)
 print(" ")
 
@@ -149,7 +144,7 @@ print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
 print("Host / IP   :⪧  fourzerofour.duckdns.org")
 print("SSH Port    :⪧  6000")
-print("Username    :⪧  nyeinkokoaung404")
+print("Username    :⪧  404")
 print(" ")
 print("Use Private Key to access server🔻🔻")
 print(" ")
