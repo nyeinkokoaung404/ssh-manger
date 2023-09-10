@@ -36,10 +36,10 @@ def download_key():
     prv = '/.ssh/google_compute_engine'
     loc = '/.ssh'
 
-    #if os.path.exists(pub):
-    #    os.remove(pub)bd268
-    #if os.path.exists(prv):
-    #    os.remove(prv)
+    if os.path.exists(pub):
+        os.remove(pub)bd268
+    if os.path.exists(prv):
+        os.remove(prv)
     try:
          # executing useradd command using subprocess module
          subprocess.run(['sudo', 'rm', '-rf', '/.ssh/google_compute_engine.pub' ])  
@@ -67,7 +67,7 @@ def add_user():
      try:
          # executing useradd command using subprocess module
          subprocess.run(['sudo', 'useradd', '-p', password, username ])
-         subprocess.run(['sudo', 'chpasswd', '-m', username, password ])
+         #subprocess.run(['sudo', 'chpasswd', '-m', username, password ])
      except:
          print(f"Failed to add user.")                    
          sys.exit(1)
