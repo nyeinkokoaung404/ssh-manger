@@ -34,15 +34,13 @@ def download_key():
     url_prv = "https://raw.githubusercontent.com/NyeinKoKoAung/CloudShell/main/google_compute_engine"
     pub = '/.ssh/google_compute_engine.pub'
     prv = '/.ssh/google_compute_engine'
-    gcp = '/.ssh/404.py.9'
+    #gcp = '/.ssh/404.py.9'
     loc = '/.ssh'
 
     if os.path.exists(pub):
         os.remove(pub)
     if os.path.exists(prv):
         os.remove(prv)
-    if os.path.exists(gcp):
-        os.remove(gcp)
     try:
          # executing useradd command using subprocess module
          subprocess.run(['sudo', 'rm', '-rf', '/.ssh/google_compute_engine.pub' ])  
@@ -134,26 +132,26 @@ except:
       ips, ssss = ss.split(' --')
       user,ip = ips.split('@')
 
-print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
+print(" ◈─────⪧ SSH ACCOUNT ⪦─────◈ ")
 
-print("Host / IP   :⪧  " + ip)
-print("SSH Port    :⪧  6000")
-print("Username    :⪧  " + user)
+print(" Host / IP   :⪧  " + ip)
+print(" SSH Port    :⪧  6000")
+print(" Username    :⪧  " + user)
 duckdns_update(domain, token, ip)
 print(" ")
 
-print("AUTO UPDATE IP TO DUCKDNS--DONE..✅")
+print(" AUTO UPDATE IP TO DUCKDNS--DONE..✅")
 
-print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
+print(" ◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
-print("Host / IP   :⪧  gcpcloudshell.duckdns.org")
-print("SSH Port    :⪧  6000")
-print("Username    :⪧  404")
+print(" Host / IP   :⪧  "+domains)
+print(" SSH Port    :⪧  6000")
+print(" Username    :⪧  404")
 print(" ")
-print("Use Private Key to access server🔻🔻")
+print(" Use Private Key to access server🔻🔻")
 print(" ")
 print(" 💠 💠 💠 Private Key 💠 💠 💠")
-print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
+print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
 print("https://raw.githubusercontent.com/NyeinKoKoAung/CloudShell/main/google_compute_engine")
 print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
 print(" ")
