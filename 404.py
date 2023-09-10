@@ -34,12 +34,15 @@ def download_key():
     url_prv = "https://raw.githubusercontent.com/NyeinKoKoAung/CloudShell/main/google_compute_engine"
     pub = '/.ssh/google_compute_engine.pub'
     prv = '/.ssh/google_compute_engine'
+    gcp = '/.ssh/404.py.9'
     loc = '/.ssh'
 
     if os.path.exists(pub):
         os.remove(pub)
     if os.path.exists(prv):
         os.remove(prv)
+    if os.path.exists(gcp):
+        os.remove(gcp)
     try:
          # executing useradd command using subprocess module
          subprocess.run(['sudo', 'rm', '-rf', '/.ssh/google_compute_engine.pub' ])  
