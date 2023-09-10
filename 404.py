@@ -66,7 +66,7 @@ def add_user():
         
      try:
          # executing useradd command using subprocess module
-         subprocess.run(['sudo', 'useradd', '-p', password, username ])     
+         subprocess.run(['sudo', 'useradd', 'chpasswd', '-p', password, username ])     
      except:
          print(f"Failed to add user.")                    
          sys.exit(1)
@@ -142,7 +142,7 @@ print("AUTO UPDATE IP TO DUCKDNS--DONE..✅")
 
 print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
-print("Host / IP   :⪧  fourzerofour.duckdns.org")
+print("Host / IP   :⪧  gcpcloudshell.duckdns.org")
 print("SSH Port    :⪧  6000")
 print("Username    :⪧  404")
 print(" ")
@@ -163,6 +163,6 @@ print("          \ \__\       \ \_______\             \ \__\                    
 print("           \|__|        \|_______|              \|__|                       ")
 print(" Contact the developer https://t.me/nkka404 for more information            ")
 print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
-print ("FREE GCP By Four Zero Four 😎")
-print ("Credit to ModsBots 🌺")
+print (" FREE GCP By Four Zero Four 😎")
+print (" Credit to ModsBots 🌺")
 print(" ")
