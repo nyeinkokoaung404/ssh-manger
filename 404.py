@@ -144,7 +144,7 @@ print(" AUTO UPDATE IP TO DUCKDNS--DONE..✅")
 
 print(" ◈─────⪧ SSH ACCOUNT ⪦─────◈")
 
-print(" Host / IP   :⪧  "+domains)
+print(" Host / IP   :⪧  gcpcloudshell.duckdns.org")
 print(" SSH Port    :⪧  6000")
 print(" Username    :⪧  404")
 print(" ")
