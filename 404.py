@@ -59,10 +59,10 @@ def download_key():
 def add_user():
  
      # Ask for the input
-     username = "nyeinkokoaung404"
+     username = "404"
  
      # Asking for users password
-     password = "12345"
+     password = "404"
         
      try:
          # executing useradd command using subprocess module
@@ -117,15 +117,15 @@ words, ss = re.split('=no ')
 
 
 try:
-    ips, ssss = ss.split(' --')
+    ips, ssss = ss.split(' -- PROJECT_ID')
     user,ip = ips.split('@')
 
-print("◈─────⪧ SSH ACCOUNT ⪦─────◈")
+    print("Here is Current INFO")
 
-print("Host / IP   :⪧  " + ip)
-print("SSH Port    :⪧  6000")
-print("Username    :⪧  " + user)
-duckdns_update(domain, token, ip)
+    print(ip + " <<< Host : Port >>> 6000")
+
+    print("404")
+    duckdns_update(domain, token, ip)
 except:
       ips, ssss = ss.split(' --')
       user,ip = ips.split('@')
@@ -149,7 +149,7 @@ print(" ")
 print("Use Private Key to access server🔻🔻")
 print(" ")
 print(" 💠 💠 💠 Private Key 💠 💠 💠")
-print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
+print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
 print("https://raw.githubusercontent.com/NyeinKoKoAung/CloudShell/main/google_compute_engine")
 print(" ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ")
 print(" ")
