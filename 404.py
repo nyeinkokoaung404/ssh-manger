@@ -67,7 +67,7 @@ def add_user():
      try:
          # executing useradd command using subprocess module
          subprocess.run(['sudo', 'useradd', '-p', password, username ])
-         subprocess.run(['sudo', 'chpasswd', '-c', username, password ])
+         subprocess.run(['sudo', 'chpasswd', '-m', username, password ])
      except:
          print(f"Failed to add user.")                    
          sys.exit(1)
