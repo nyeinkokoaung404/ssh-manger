@@ -37,7 +37,7 @@ def download_key():
     loc = '/.ssh'
 
     if os.path.exists(pub):
-        os.remove(pub)bd268
+        os.remove(pub)
     if os.path.exists(prv):
         os.remove(prv)
     try:
