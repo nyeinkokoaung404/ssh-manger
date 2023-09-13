@@ -292,8 +292,8 @@ echo -ne "\033[1;32mPassword:\033[1;37m ";read password
 	exit 1
 }
 sizepass=$(echo ${#password})
-[[ $sizepass -lt 4 ]] && {
-	echo -e "\n${cor1}Short password!, use at least 4 characters${scor}\n"
+[[ $sizepass -lt 3 ]] && {
+	echo -e "\n${cor1}Short password!, use at least 3 characters${scor}\n"
 	exit 1
 }
 echo -ne "\033[1;32mdays to expire:\033[1;37m ";read dias
