@@ -1,7 +1,7 @@
 #!/bin/bash
 fun_badvpn() {
     clear
-    echo -e "\E[44;1;37m        ㅤ🐉ㅤBADVPN MANAGERㅤ🐉ㅤ         \E[0m"
+    echo -e "\E[44;1;37m        ㅤ🌺ㅤBADVPN MANAGERㅤ🌺ㅤ         \E[0m"
     echo ""
     if ps x | grep -w udpvpn | grep -v grep 1>/dev/null 2>/dev/null; then
         echo -e "\033[1;33m◇ PORTS\033[1;37m: \033[1;32m$(netstat -nplt | grep 'badvpn-ud' | awk {'print $4'} | cut -d: -f2 | xargs)"
@@ -57,7 +57,7 @@ fun_badvpn() {
                     sleep 0.1
                 } || {
                     cd $HOME
-                    wget https://github.com/januda-ui/DRAGON-VPS-MANAGER/raw/main/Modulos/badvpn-udpgw -o /dev/null
+                    wget https://github.com/nyeinkokoaung404/ssh-manger/raw/main/Modulos/badvpn-udpgw -o /dev/null
                     mv -f $HOME/badvpn-udpgw /bin/badvpn-udpgw
                     chmod 777 /bin/badvpn-udpgw
                 }
